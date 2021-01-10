@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #21c08b;
+    height: 100px;
+    width: 100%;
+}
+
+header img {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.login {
+    background-image: linear-gradient(#21c08b, #8f57fd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    min-height: calc(100vh - 200px);
+}
+
+.login__container {
+    background-color: rgba(255,255,255,0.1);
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    min-height: 700px;
+    padding: 60px 68px 40px;
+    width: 300px;
+}
+
+.login__container--form {
+    height: 300px;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login__container h2 {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.input {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    height: 30px;
+}
+
+.input::placeholder {
+    color: white;
+    font-size: 16px;
+}
+
+.inputLogin {
+    background-color: rgba(255, 255, 255, 0.3);
+    border: none;
+    color: white;
+    height: 50px;
+    border-radius: 25px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login__container--remember-me {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Forgot-password {
+    text-decoration: none;
+    color: white;
+}
+
+.Forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login__container--social-media {
+}
+
+.login__container--social-media div {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.login__container--social-media img {
+    margin-right: 10px;
+    width: 30px;
+}
+
+
+.login__container--social-media div:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.login__container--register a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.login__container--register a:hover {
+    text-decoration: underline;
+}
