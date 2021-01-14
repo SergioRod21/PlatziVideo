@@ -93,8 +93,6 @@ header img {
     text-decoration: underline;
 }
 
-.login__container--social-media {
-}
 
 .login__container--social-media div {
     display: flex;
@@ -115,7 +113,6 @@ header img {
 }
 
 
-
 .login__container--register a {
     color: white;
     text-decoration: none;
@@ -124,5 +121,34 @@ header img {
 }
 
 .login__container--register a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .login__container {
+      background-color: transparent;
+      border: none;
+      box-shadow: none;
+      padding: 0px;
+      width: 100%;
+    }
+}
+
+footer {
+    background-color: #855FF3;
+    width: 100%;
+}
+
+.footer-item {
+    margin-left: 10px;
+    display: inline-block;
+    margin-right: 8px;
+    height: 50px;
+    margin-top: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-item:hover {
     text-decoration: underline;
 }
